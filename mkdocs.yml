@@ -16,9 +16,6 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.superfences
   - pymdownx.fancylists
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - nl2br
   - admonition
   - tables
@@ -32,7 +29,3 @@ markdown_extensions:
         baselevel: 2
         toc_depth: 3
         separator: "-"
-
-docs_dir: .site_content
-
-site_dir: site
