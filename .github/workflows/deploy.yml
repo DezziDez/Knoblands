@@ -1,0 +1,44 @@
+name: Build and Deploy MkDocs Site
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build-deploy:
+        runs-on: ubuntu-latest
+
+    steps:
+        # Step 1: Checkout the repository
+        - name: Checkout Code
+        uses: actions/checkout@v3
+
+        # Step 2: Set up Python
+        - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+            python-version: '3.10'
+
+        # Step 3: Install MkDocs and dependencies
+        - name: Install MkDocs and Plugins
+            run: |
+                pip install mkdocs \
+                pymdown-extensions>=10.0 \
+                markdown-full-yaml-metadata
+
+        # Step 4: Filter files and copy to temporary directory
+        - name: Filter and Copy Public Notes
+            run: |
+                mkdir -p .site_content   
+                find . -type f -exec grep -l "share: true" {} \; | while IFS= read -r file; do
+                    cp --parents "$file" .site_content/ || true
+                done
+                cp index.md .site_content/ || true
+                cp .overrides .site_content/ || true
+              - name: Deploy MkDocs to GitHub Pages
+
+      # Step 5: Build and Deploy MkDocs Site
+        - name: Deploy MkDocs to GitHub Pages
+            run: |
+                mkdocs gh-deploy --force --config-file mkdocs.yml

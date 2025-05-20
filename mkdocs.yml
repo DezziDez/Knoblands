@@ -1,0 +1,38 @@
+site_name: Knoblands
+
+markdown_extensions:
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: DezziDez
+      repo: Knoblands
+      normalize_issue_symbols: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.extra
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.fancylists
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - nl2br
+  - admonition
+  - tables
+  - footnotes
+  - def_list
+  - attr_list
+  - md_in_html
+  - full_yaml_metadata
+  - toc:
+        permalink: true
+        baselevel: 2
+        toc_depth: 3
+        separator: "-"
+
+docs_dir: .site_content
+
+site_dir: site
