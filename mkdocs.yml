@@ -1,5 +1,7 @@
 site_name: Knoblands
 
+
+
 markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
