@@ -28,15 +28,6 @@ jobs:
             mkdocs-publisher \
             markdown-full-yaml-metadata
 
-      # Step 4: Filter files and copy to temporary directory
-      - name: Filter and Copy Public Notes
-        run: |
-          mkdir -p .site_content   
-          cp index.md .site_content/ || true
-          cp CNAME .site_content/ || true
-          cp -r content/. .site_content/ || true
-          cp -r images/. .site_content/ || true
-
       # Step 5: Build and Deploy MkDocs Site
       - name: Deploy MkDocs to GitHub Pages
         run: |
