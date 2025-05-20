@@ -1,1 +1,1 @@
-![Knoblands_Group_Running](./images/GroupRunning.jpg)
+![Knoblands_Group_Running](GroupRunning.jpg)
