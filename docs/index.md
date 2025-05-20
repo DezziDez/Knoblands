@@ -1,1 +1,1 @@
-![](img/GroupPhoto.jpg)
+![](GroupPhoto.jpg)
