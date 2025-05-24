@@ -24,8 +24,7 @@ jobs:
       - name: Install MkDocs and Plugins
         run: |
           pip install mkdocs \
-            pymdown-extensions>=10.0 \
-            mkdocs-publisher \
+            pymdown-extensions \
             markdown-full-yaml-metadata
 
       # Step 4: Build and Deploy MkDocs Site
