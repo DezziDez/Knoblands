@@ -25,6 +25,7 @@ jobs:
         run: |
           pip install mkdocs \
             pymdown-extensions \
+            mkdocs-material \
             markdown-full-yaml-metadata
 
       # Step 4: Build and Deploy MkDocs Site

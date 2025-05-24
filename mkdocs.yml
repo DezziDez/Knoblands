@@ -1,6 +1,36 @@
 site_name: Knoblands
 
-
+theme:
+    name: material
+    favicon: img/favicon.ico
+    logo: img/favicon.ico
+    features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: knoblands
+      accent: knoblands
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: knoblands
+      accent: knoblands
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    extra_css:
+    - stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.magiclink:

@@ -3,4 +3,4 @@ hide:
     - toc
     - navigation
 ---
-![](GroupPhoto.jpg)
+![](img/GroupPhotoWeb.png)
