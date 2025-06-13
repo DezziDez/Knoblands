@@ -33,6 +33,7 @@ theme:
     - stylesheets/extra.css
     extra:
       generator: false
+    custom_dir: overrides
 
 
 markdown_extensions:
@@ -68,7 +69,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Socials: Socials.md
-  - Resources:
-    - The Rules: Resources.md
-    - Tutorials: Tutorials.md
   - Events: Events.md
+  - Rules and Waiver: Resources.md
+  - Tutorials: Tutorials.md

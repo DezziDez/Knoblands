@@ -1,3 +1,9 @@
+---
+hide:
+    - toc
+    - navigation
+---
+
 <h1></h1>
 
 <figure>
