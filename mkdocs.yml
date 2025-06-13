@@ -31,6 +31,9 @@ theme:
         name: Switch to light mode
     extra_css:
     - stylesheets/extra.css
+    extra:
+      generator: false
+
 
 markdown_extensions:
   - pymdownx.magiclink:
