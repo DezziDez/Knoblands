@@ -16,16 +16,16 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: knoblands
-      accent: knoblands
+      primary: green
+      accent: green
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: knoblands
-      accent: knoblands
+      primary: green
+      accent: green
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -61,3 +61,11 @@ markdown_extensions:
         baselevel: 2
         toc_depth: 3
         separator: "-"
+
+nav:
+  - Home: index.md
+  - Socials: Socials.md
+  - Resources:
+    - The Rules: Resources.md
+    - Tutorials: Tutorials.md
+  - Events: Events.md

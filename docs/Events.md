@@ -2,38 +2,8 @@
 hide:
     - navigation
 ---
-# SKBC (SWORD KNIGHT BOOT CAMP)
-## May 15th - 18th
-## Troy, Missouri
-This event is a sword training event with lots of classes on how to be a better fighter. There are no battle games but it is a great opporunity to improve your stick skills. https://www.swordknight.com/
 
-
-# Tal Dagore plus Rivermoor Interkingdom Event
-## May 21st - 26th
-## Maryville, Missouri
-Known World War. Again one of the bigger events of the year definitely recommend if you can only go to two. We will definitely be looking at carpooling options. This event typically has a lot of battle games (like 5-6 a day typically though the schedule has not been announced yet), a great site thats got good bathrooms, meals provided for most meals, a night quest etc etc. 
-https://www.facebook.com/share/1X9KBfpYsT/
-
-
-# Knoblands | WM/DM
-## May 31st
-## Springfield, Missouri
-
-# The Kingdom of Emerald Hills | WM/DM
-## May 31st 
-## Mid-West City, Oklahoma
-The kingdom of Emerald Hills Weapon Master/Dragon Master (If your maxed out on warrior at park might be worth considering raiding)
-https://www.facebook.com/share/15Lpye96EE/
-
-
-# Dutchy of Knights Rest Crown Tournament
-## June 1st
-## St Louis, Missouri
-(can earn up to 7th awards if you do well in this tournament)
-
-# Knoblands End Reign
-## June 8th
-Springfield, Missouri
+<h1></h1>
 
 # The Barony of Seven River Forges | WM/DM
 ## June 14th
