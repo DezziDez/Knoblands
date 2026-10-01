@@ -7,11 +7,11 @@ hide:
 <h1></h1>
 
 <figure>
-    <a href="https://app.cleverwaiver.com/render/templateByRefId/65343980fc2b2df2fa3d4d64">
+    <a href="https://app.cleverwaiver.com/render/templateByRefId/6a7a2cd2b56b1b22bf0c34f7">
     <img src="/img/TD_Bird.png" alt="Waiver" style="width:200px;height:200px">
     </a>
     <figcaption>
-        <a href="hhttps://app.cleverwaiver.com/render/templateByRefId/65343980fc2b2df2fa3d4d64"> Tal Dagore Waiver</a>
+        <a href="https://app.cleverwaiver.com/render/templateByRefId/6a7a2cd2b56b1b22bf0c34f7"> Tal Dagore Waiver</a>
     </figcaption>
 </figure>
 
